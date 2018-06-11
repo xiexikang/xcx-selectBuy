@@ -1,0 +1,33 @@
+<!--pages/selectBuy/selectBuy.wxml-->
+<view class='act-modle'>
+  <view class="the-meal">
+    <view class="t-inf">套餐价格</view>
+    <view class="kc-type">
+      <radio-group class="radio-group" bindchange="radioChange">
+        <block wx:for="{{items}}" wx:key="{{key}}">
+          <view class="li" data-id="{{item.id}}" data-index="{{index}}">
+            <view class='ti'>
+              <label class="mm">{{item.money}}</label>
+              <label class="tt">{{item.text}}</label>
+            </view>
+            <radio class='che' color='#ff6e6e' value="{{index}}"  data-price = "{{item.money}}" checked="{{item.checked}}"/> 
+          </view>
+        </block>
+      </radio-group>
+    </view>
+  </view>
+</view>
+
+<view class='the-cal'>
+  <view class='tl'>购买数量</view>
+  <view class='cal'>
+    <label class='i i-reduce' style="background-image:url('https://xcx.quan5fen.com/Public/xcx-hitui/image/i-ico-jian.png')"  bindtap='bindReduce'></label>
+    <input class='inp' type='number' maxlength="99" bindinput='bindManual' value='{{num}}' />
+    <label class='i i-add' style="background-image:url('https://xcx.quan5fen.com/Public/xcx-hitui/image/i-ico-add.png')" bindtap='bindAdd'></label>
+  </view>
+</view>
+
+<view class='bot-pay'>
+  <view class='cost'><label class='mm'>￥{{totalPrice}}</label></view>
+  <button url='sucess'  class='pay-btn'>购买</button>
+</view>

@@ -1,0 +1,28 @@
+/* pages/selectBuy/selectBuy.wxss */
+.act-modle{ margin-top: 50rpx;}
+.the-meal{ width: 100%; height: auto; padding: 0 30rpx; box-sizing: border-box; border-bottom: 20rpx solid #f7f7f7; overflow:hidden;}
+.the-meal .t-inf{ width: 100%; }
+.the-meal .kc-type{ width: 100%; font-size: 28rpx; color: #666; }
+.the-meal .kc-type .li{ width: 100%; height: auto; padding: 30rpx 0; border-bottom: 1px solid #f7f7f7; overflow:hidden; position: relative;}
+.the-meal .kc-type .li .ti{ width: 90%; box-sizing: border-box; float: left; }
+.the-meal .kc-type .li .mm{ color: #ff6b6b; float: left;}
+.the-meal .kc-type .li .tt{ margin-left: 120rpx; display: block; }
+.the-meal .kc-type .li .che{ float: right; transform: scale(.8);}
+
+.the-cal{ width: 100%; padding: 0 30rpx; height: 145rpx; box-sizing: border-box; background-color: #fff; border-bottom: 20rpx solid #f7f7f7;}
+.the-cal .tl{ line-height: 145rpx; color: #666; font-size: 30rpx; float: left;}
+.the-cal .cal{ width: 206rpx; height: 58rpx; border: 1px solid #f0f0f0; border-radius: 2rpx; float: right; margin-top: 48rpx; position: relative;}
+.the-cal .i{ width: 58rpx; height: 58rpx; background-repeat: no-repeat; background-size: cover;
+ position: absolute; top: 0; }
+.the-cal .i-reduce{ left: 0;}
+.the-cal .i-add{ right: 0;}
+.the-cal .inp{ width: 90rpx; height: 58rpx; line-height: 58rpx; border: 1px solid #f0f0f0; border-top: none; border-bottom: none; position: absolute; left: 58rpx; text-align: center; font-size: 28rpx; color: #ff6b6b;}
+
+.bot-pay{ width: 100%; height: 100rpx; background-color: #fff; border-top: 1px solid #f0f0f0; position: fixed; left: 0; bottom: 0; z-index: 99;}
+.bot-pay .pay-btn{ width: 240rpx; height: 100rpx; line-height: 100rpx; background-color: #ff6b6b;
+  color: #fff; font-size: 36rpx; text-align: center; float: right;  border-radius: 0;}
+.bot-pay .cost{ width: 380rpx;  height: 100rpx; line-height: 100rpx;color: #666; padding-left: 25rpx; box-sizing: border-box; float: left;}
+.bot-pay .cost .mm{ color: #ff6b6b;}
+.bot-pay .close{ width: 130rpx;  height: 100rpx; text-align: center; font-size: 24rpx; border-right: 1px solid #f0f0f0; box-sizing: border-box; float: left; }
+.bot-pay .close .ico{ width: 36rpx; height: 36rpx; display: inline-block; margin-top: 14rpx;  }
+.bot-pay .close .t{ display: block;}

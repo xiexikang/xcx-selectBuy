@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/selectBuy/selectBuy",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "多个选项选中计算价格",
+    "navigationBarTextStyle":"white"
+  }
+}
